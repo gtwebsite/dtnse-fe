@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styles/styled-components';
+import { createGlobalStyle, remFontSize } from 'styles/styled-components';
 
 const GlobalStyle = createGlobalStyle`
   html,
@@ -31,6 +31,16 @@ const GlobalStyle = createGlobalStyle`
   input, select {
     font-family: inherit;
     font-size: inherit;
+  }
+
+  h1 {
+    ${remFontSize(24)}
+  }
+  h2 {
+    ${remFontSize(20)}
+  }
+  h3 {
+    ${remFontSize(16)}
   }
 `;
 

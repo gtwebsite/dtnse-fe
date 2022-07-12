@@ -26,4 +26,5 @@ const {
 >;
 
 export { css, createGlobalStyle, keyframes, ThemeProvider };
+export * from './mixins'
 export default styled;
