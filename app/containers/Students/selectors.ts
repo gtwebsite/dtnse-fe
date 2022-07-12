@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { ApplicationRootState } from 'types';
+import type { ApplicationRootState } from 'types';
 import { initialState } from './reducer';
 
 const selectStudents = (state: ApplicationRootState) =>

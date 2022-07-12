@@ -1,4 +1,4 @@
-import { StudentState, StudentAction } from './types';
+import type { StudentState, StudentAction } from './types';
 import ActionTypes from './constants';
 
 export const initialState: StudentState = {

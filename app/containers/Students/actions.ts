@@ -1,6 +1,6 @@
 import ActionTypes from './constants';
 import { action } from 'typesafe-actions';
-import { Student } from './types';
+import type { Student } from './types';
 
 export const createStudent = (student: Partial<Student>) =>
   action(ActionTypes.CREATE, student);

@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { useDispatch } from 'react-redux';
-import { Student } from './types';
+import type { Student } from './types';
 import { deleteStudent, selectStudent } from './actions';
 import Portal from './Portal';
 
-export default function Row(props: Partial<Student> ) {
+export default function Row(props: Partial<Student>) {
   const [confirmDelete, setConfirmDelete] = React.useState(false);
   const dispatch = useDispatch();
 
